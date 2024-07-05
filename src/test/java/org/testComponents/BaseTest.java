@@ -4,8 +4,12 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -27,6 +31,7 @@ public class BaseTest  {
     public  WebDriver driver;
     public LandingPage lp;
 
+
     public WebDriver initializeDriver() throws IOException {
 
 
@@ -36,11 +41,21 @@ public class BaseTest  {
                 FileInputStream(System.getProperty("user.dir")+"//src//main//java//org//resources//GlobalData" +
                 ".properties");
         properties.load(fileInputStream);
-        String browserName = properties.getProperty("browser");
 
-        if(browserName.equalsIgnoreCase("chrome")){
+        // ternary operator
+        String browserName  = System.getProperty("browser") != null ? System.getProperty("browser") : properties.getProperty("browser");
+        
+        
+        //properties.getProperty("browser");
+
+        if(browserName.contains("chrome")){
+            ChromeOptions options = new ChromeOptions();
             WebDriverManager.chromedriver().setup();
-             driver = new ChromeDriver();
+            if(browserName.contains("headless")){
+                options.addArguments("headless");
+            }
+            driver = new ChromeDriver(options);
+            driver.manage().window().setSize(new Dimension(1440, 900));
         }else if(browserName.equalsIgnoreCase("firefox")){
              driver = new FirefoxDriver();
             driver.manage().window().maximize();
@@ -71,6 +86,14 @@ public class BaseTest  {
 
     }
 
+    public String getScreenshot(String testCaseName, WebDriver driver) throws IOException {
+        TakesScreenshot ts = (TakesScreenshot)driver;
+        File source = ts.getScreenshotAs(OutputType.FILE);
+        File file = new File(System.getProperty("user.dir")+"//reports//"+testCaseName+".png");
+        String filepath = file.getAbsolutePath();
+        FileUtils.copyFile(source, new File(filepath));
+        return filepath;
+    }
 
     @BeforeMethod(alwaysRun = true)
     public LandingPage launchApplication() throws IOException {
