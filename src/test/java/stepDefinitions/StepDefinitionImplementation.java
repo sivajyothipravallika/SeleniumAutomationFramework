@@ -20,6 +20,7 @@ public class StepDefinitionImplementation extends BaseTest {
     public CheckoutPage checkoutPage;
     public CartPage cp;
 
+
     @Given("I landed on ECommerce Page")
     public void iLandedOnECommercePage() throws IOException {
         lp = launchApplication();
