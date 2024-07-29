@@ -32,6 +32,8 @@ public class StandAloneTest {
 
 //        WebElement product = products.stream()
 //                .filter(prod -> prod.findElement(By.cssSelector("b")).getText().equalsIgnoreCase("ZARA COAT 3")).findFirst().orElse(null);
+        
+        // stream are introduced here
 
         products.stream().filter(prod -> prod.findElement(By.cssSelector("b")).getText()
                         .equalsIgnoreCase("zara coat 3")).findFirst()
