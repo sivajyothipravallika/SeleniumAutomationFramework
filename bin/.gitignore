@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Maven/Java build output
+target/
+out/
+*.class
+
+# Test and runtime artifacts
+logs/
+reports/
+screenshots/
+*.log
+
+# Build artifacts
+target/
+build/
+*.class
+
+# IDE files
+.idea/
+*.iml
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# VS Code workspace storage
+.vscode/*.log
