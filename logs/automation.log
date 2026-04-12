@@ -1,39 +1,102 @@
-2026-03-31 01:53:16 [main] INFO com.ui.tests.AddNewAddressTest::setup::36 - Load the Homepage of the website
-2026-03-31 01:53:16 [main] INFO com.ui.pages.HomePage::<init>::71 - Launching Browser for CHROME
-2026-03-31 01:53:22 [main] INFO com.ui.pages.HomePage::goToWebsite::106 - Visiting website https://automationpractice.techwithjatin.com
-2026-03-31 01:53:23 [main] INFO com.ui.pages.HomePage::gotoSignInPage::31 - Trying to perform click to go to login page
-2026-03-31 01:53:23 [main] INFO com.ui.pages.HomePage::clickOn::117 - Waiting for element to become clickable: By.xpath: //a[contains(text(),'Sign')]
-2026-03-31 01:53:24 [main] INFO com.ui.pages.HomePage::clickOn::120 - Element is clickable and now performing click: By.xpath: //a[contains(text(),'Sign')]
-2026-03-31 01:53:24 [main] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: email
-2026-03-31 01:53:24 [main] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: bakomam596@skrak.com
-2026-03-31 01:53:25 [main] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: passwd
-2026-03-31 01:53:25 [main] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: password
-2026-03-31 01:53:25 [main] INFO com.ui.pages.LoginPage::clickOn::117 - Waiting for element to become clickable: By.id: SubmitLogin
-2026-03-31 01:53:25 [main] INFO com.ui.pages.LoginPage::clickOn::120 - Element is clickable and now performing click: By.id: SubmitLogin
-2026-03-31 01:53:25 [main] INFO com.ui.pages.MyAccountPage::clickOn::117 - Waiting for element to become clickable: By.xpath: //a[@title='Add my first address']
-2026-03-31 01:53:26 [main] INFO com.ui.pages.MyAccountPage::clickOn::120 - Element is clickable and now performing click: By.xpath: //a[@title='Add my first address']
-2026-03-31 01:53:26 [main] INFO com.ui.pages.AddressPage::enterText::125 - Waiting for element to be visible: By.id: company
-2026-03-31 01:53:26 [main] INFO com.ui.pages.AddressPage::enterText::128 - Element is visible and now entering text: ABC
-2026-03-31 01:53:27 [main] INFO com.ui.pages.AddressPage::enterText::125 - Waiting for element to be visible: By.id: address1
-2026-03-31 01:53:27 [main] INFO com.ui.pages.AddressPage::enterText::128 - Element is visible and now entering text: 123 Main St
-2026-03-31 01:53:27 [main] INFO com.ui.pages.AddressPage::enterText::125 - Waiting for element to be visible: By.id: address2
-2026-03-31 01:53:27 [main] INFO com.ui.pages.AddressPage::enterText::128 - Element is visible and now entering text: Apt 4B
-2026-03-31 01:53:27 [main] INFO com.ui.pages.AddressPage::enterText::125 - Waiting for element to be visible: By.id: city
-2026-03-31 01:53:27 [main] INFO com.ui.pages.AddressPage::enterText::128 - Element is visible and now entering text: New York
-2026-03-31 01:53:27 [main] INFO com.ui.pages.AddressPage::selectFromDropdownWhenOptionAvailable::195 - Waiting for dropdown to be present: By.id: id_state
-2026-03-31 01:53:27 [main] INFO com.ui.pages.AddressPage::selectFromDropdownWhenOptionAvailable::200 - Waiting for dropdown option to become available: California
-2026-03-31 01:53:28 [main] INFO com.ui.pages.AddressPage::selectFromDropdownWhenOptionAvailable::222 - Selected dropdown option: California
-2026-03-31 01:53:28 [main] INFO com.ui.pages.AddressPage::enterText::125 - Waiting for element to be visible: By.id: postcode
-2026-03-31 01:53:28 [main] INFO com.ui.pages.AddressPage::enterText::128 - Element is visible and now entering text: 10001
-2026-03-31 01:53:28 [main] INFO com.ui.pages.AddressPage::enterText::125 - Waiting for element to be visible: By.id: other
-2026-03-31 01:53:28 [main] INFO com.ui.pages.AddressPage::enterText::128 - Element is visible and now entering text: Additional info
-2026-03-31 01:53:28 [main] INFO com.ui.pages.AddressPage::enterText::125 - Waiting for element to be visible: By.id: phone
-2026-03-31 01:53:28 [main] INFO com.ui.pages.AddressPage::enterText::128 - Element is visible and now entering text: 1234567890
-2026-03-31 01:53:28 [main] INFO com.ui.pages.AddressPage::enterText::125 - Waiting for element to be visible: By.id: phone_mobile
-2026-03-31 01:53:28 [main] INFO com.ui.pages.AddressPage::enterText::128 - Element is visible and now entering text: 0987654321
-2026-03-31 01:53:28 [main] INFO com.ui.pages.AddressPage::clearText::133 - Waiting for element to be visible: By.id: alias
-2026-03-31 01:53:28 [main] INFO com.ui.pages.AddressPage::clearText::136 - Element is visible and now clearing the text box field
-2026-03-31 01:53:29 [main] INFO com.ui.pages.AddressPage::enterText::125 - Waiting for element to be visible: By.id: alias
-2026-03-31 01:53:29 [main] INFO com.ui.pages.AddressPage::enterText::128 - Element is visible and now entering text: My Address
-2026-03-31 01:53:29 [main] INFO com.ui.pages.AddressPage::clickOn::117 - Waiting for element to become clickable: By.id: submitAddress
-2026-03-31 01:53:29 [main] INFO com.ui.pages.AddressPage::clickOn::120 - Element is clickable and now performing click: By.id: submitAddress
+2026-04-10 23:14:18 [main] INFO com.ui.listeners.TestListener::onStart::67 - Test Suite Started
+2026-04-10 23:14:18 [TestNG-PoolService-1] INFO com.ui.tests.LoginTest::setup::36 - Load the Homepage of the website
+2026-04-10 23:14:18 [TestNG-PoolService-2] INFO com.ui.tests.LoginTest::setup::36 - Load the Homepage of the website
+2026-04-10 23:14:18 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::<init>::71 - Launching Browser for CHROME
+2026-04-10 23:14:18 [TestNG-PoolService-2] INFO com.ui.pages.HomePage::<init>::71 - Launching Browser for CHROME
+2026-04-10 23:14:50 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::goToWebsite::106 - Visiting website https://automationpractice.techwithjatin.com
+2026-04-10 23:14:50 [TestNG-PoolService-2] INFO com.ui.pages.HomePage::goToWebsite::106 - Visiting website https://automationpractice.techwithjatin.com
+2026-04-10 23:14:52 [TestNG-PoolService-2] INFO com.ui.listeners.TestListener::onTestStart::28 - loginCSVTest
+2026-04-10 23:14:52 [TestNG-PoolService-2] INFO com.ui.listeners.TestListener::onTestStart::29 - Verifies with the valid user is able to login into the application
+2026-04-10 23:14:52 [TestNG-PoolService-2] INFO com.ui.listeners.TestListener::onTestStart::30 - [e2e, sanity]
+2026-04-10 23:14:52 [TestNG-PoolService-2] INFO com.ui.pages.HomePage::gotoSignInPage::31 - Trying to perform click to go to login page
+2026-04-10 23:14:52 [TestNG-PoolService-2] INFO com.ui.pages.HomePage::clickOn::117 - Waiting for element to become clickable: By.xpath: //a[contains(text(),'Sign')]
+2026-04-10 23:14:52 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestStart::28 - loginCSVTest
+2026-04-10 23:14:52 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestStart::29 - Verifies with the valid user is able to login into the application
+2026-04-10 23:14:52 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestStart::30 - [e2e, sanity]
+2026-04-10 23:14:52 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::gotoSignInPage::31 - Trying to perform click to go to login page
+2026-04-10 23:14:52 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::clickOn::117 - Waiting for element to become clickable: By.xpath: //a[contains(text(),'Sign')]
+2026-04-10 23:14:52 [TestNG-PoolService-2] INFO com.ui.pages.HomePage::clickOn::120 - Element is clickable and now performing click: By.xpath: //a[contains(text(),'Sign')]
+2026-04-10 23:14:52 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::clickOn::120 - Element is clickable and now performing click: By.xpath: //a[contains(text(),'Sign')]
+2026-04-10 23:14:53 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: email
+2026-04-10 23:14:53 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: email
+2026-04-10 23:14:53 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: bakomam596@skrak.com
+2026-04-10 23:14:53 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: jatinvsharma@gmail.com
+2026-04-10 23:14:53 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: passwd
+2026-04-10 23:14:53 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: passwd
+2026-04-10 23:14:53 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: pass1234
+2026-04-10 23:14:53 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: password
+2026-04-10 23:14:53 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::clickOn::117 - Waiting for element to become clickable: By.id: SubmitLogin
+2026-04-10 23:14:53 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::clickOn::117 - Waiting for element to become clickable: By.id: SubmitLogin
+2026-04-10 23:14:53 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::clickOn::120 - Element is clickable and now performing click: By.id: SubmitLogin
+2026-04-10 23:14:53 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::clickOn::120 - Element is clickable and now performing click: By.id: SubmitLogin
+2026-04-10 23:14:54 [TestNG-PoolService-2] INFO com.ui.pages.MyAccountPage::getVisibleText::150 - Finding element with the locator By.xpath: //a[@title='View my customer account']/span
+2026-04-10 23:14:54 [TestNG-PoolService-2] ERROR com.ui.listeners.TestListener::onTestFailure::40 - loginCSVTest FAILED
+2026-04-10 23:14:54 [TestNG-PoolService-2] ERROR com.ui.listeners.TestListener::onTestFailure::42 - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}
+  (Session info: chrome=147.0.7727.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf847dc127470751d96f4e3131f76bac, findElement {using=xpath, value=//a[@title='View my customer account']/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: /var/folders/bc/crt3jwvd5tg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50534}, goog:processID: 32461, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50534/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf847dc127470751d96f4e3131f76bac
+2026-04-10 23:14:54 [TestNG-PoolService-2] INFO com.ui.listeners.TestListener::onTestFailure::54 - Capturing Screenshot for the failed tests
+2026-04-10 23:14:54 [TestNG-PoolService-1] INFO com.ui.pages.MyAccountPage::getVisibleText::150 - Finding element with the locator By.xpath: //a[@title='View my customer account']/span
+2026-04-10 23:14:54 [TestNG-PoolService-1] INFO com.ui.pages.MyAccountPage::getVisibleText::152 - Element found and now returning the visible text Jatin Sharma
+2026-04-10 23:14:54 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestSuccess::35 - loginCSVTest PASSED
+2026-04-10 23:14:54 [TestNG-PoolService-2] INFO com.ui.listeners.TestListener::onTestFailure::56 - Attaching screenshot to the test report
+2026-04-10 23:14:55 [TestNG-PoolService-1] INFO com.ui.tests.LoginTest::setup::36 - Load the Homepage of the website
+2026-04-10 23:14:55 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::<init>::71 - Launching Browser for CHROME
+2026-04-10 23:14:56 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::goToWebsite::106 - Visiting website https://automationpractice.techwithjatin.com
+2026-04-10 23:14:57 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestStart::28 - loginExcelTest
+2026-04-10 23:14:57 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestStart::29 - Verifies with the valid user is able to login into the application
+2026-04-10 23:14:57 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestStart::30 - [e2e, sanity]
+2026-04-10 23:14:57 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::gotoSignInPage::31 - Trying to perform click to go to login page
+2026-04-10 23:14:57 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::clickOn::117 - Waiting for element to become clickable: By.xpath: //a[contains(text(),'Sign')]
+2026-04-10 23:14:57 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::clickOn::120 - Element is clickable and now performing click: By.xpath: //a[contains(text(),'Sign')]
+2026-04-10 23:14:57 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: email
+2026-04-10 23:14:57 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: bakomam596@skrak.com
+2026-04-10 23:14:58 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: passwd
+2026-04-10 23:14:58 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: password
+2026-04-10 23:14:58 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::clickOn::117 - Waiting for element to become clickable: By.id: SubmitLogin
+2026-04-10 23:14:58 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::clickOn::120 - Element is clickable and now performing click: By.id: SubmitLogin
+2026-04-10 23:14:58 [TestNG-PoolService-1] INFO com.ui.pages.MyAccountPage::getVisibleText::150 - Finding element with the locator By.xpath: //a[@title='View my customer account']/span
+2026-04-10 23:14:59 [TestNG-PoolService-1] INFO com.ui.pages.MyAccountPage::getVisibleText::152 - Element found and now returning the visible text Jatin Sharma
+2026-04-10 23:14:59 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestSuccess::35 - loginExcelTest PASSED
+2026-04-10 23:14:59 [TestNG-PoolService-1] INFO com.ui.tests.LoginTest::setup::36 - Load the Homepage of the website
+2026-04-10 23:14:59 [TestNG-PoolService-2] INFO com.ui.tests.LoginTest::setup::36 - Load the Homepage of the website
+2026-04-10 23:14:59 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::<init>::71 - Launching Browser for CHROME
+2026-04-10 23:14:59 [TestNG-PoolService-2] INFO com.ui.pages.HomePage::<init>::71 - Launching Browser for CHROME
+2026-04-10 23:15:01 [TestNG-PoolService-2] INFO com.ui.pages.HomePage::goToWebsite::106 - Visiting website https://automationpractice.techwithjatin.com
+2026-04-10 23:15:02 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::goToWebsite::106 - Visiting website https://automationpractice.techwithjatin.com
+2026-04-10 23:15:02 [TestNG-PoolService-2] INFO com.ui.listeners.TestListener::onTestStart::28 - loginTest
+2026-04-10 23:15:02 [TestNG-PoolService-2] INFO com.ui.listeners.TestListener::onTestStart::29 - Verifies with the valid user is able to login into the application
+2026-04-10 23:15:02 [TestNG-PoolService-2] INFO com.ui.listeners.TestListener::onTestStart::30 - [e2e, sanity]
+2026-04-10 23:15:02 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestStart::28 - loginTest
+2026-04-10 23:15:02 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestStart::29 - Verifies with the valid user is able to login into the application
+2026-04-10 23:15:02 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestStart::30 - [e2e, sanity]
+2026-04-10 23:15:02 [TestNG-PoolService-2] INFO com.ui.pages.HomePage::gotoSignInPage::31 - Trying to perform click to go to login page
+2026-04-10 23:15:02 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::gotoSignInPage::31 - Trying to perform click to go to login page
+2026-04-10 23:15:02 [TestNG-PoolService-2] INFO com.ui.pages.HomePage::clickOn::117 - Waiting for element to become clickable: By.xpath: //a[contains(text(),'Sign')]
+2026-04-10 23:15:02 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::clickOn::117 - Waiting for element to become clickable: By.xpath: //a[contains(text(),'Sign')]
+2026-04-10 23:15:02 [TestNG-PoolService-2] INFO com.ui.pages.HomePage::clickOn::120 - Element is clickable and now performing click: By.xpath: //a[contains(text(),'Sign')]
+2026-04-10 23:15:02 [TestNG-PoolService-1] INFO com.ui.pages.HomePage::clickOn::120 - Element is clickable and now performing click: By.xpath: //a[contains(text(),'Sign')]
+2026-04-10 23:15:03 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: email
+2026-04-10 23:15:03 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: email
+2026-04-10 23:15:03 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: bakomam596@skrak.com
+2026-04-10 23:15:03 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: jatinvsharma@gmail.com
+2026-04-10 23:15:03 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: passwd
+2026-04-10 23:15:03 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::enterText::125 - Waiting for element to be visible: By.id: passwd
+2026-04-10 23:15:03 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: password
+2026-04-10 23:15:03 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::enterText::128 - Element is visible and now entering text: password
+2026-04-10 23:15:03 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::clickOn::117 - Waiting for element to become clickable: By.id: SubmitLogin
+2026-04-10 23:15:03 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::clickOn::117 - Waiting for element to become clickable: By.id: SubmitLogin
+2026-04-10 23:15:03 [TestNG-PoolService-2] INFO com.ui.pages.LoginPage::clickOn::120 - Element is clickable and now performing click: By.id: SubmitLogin
+2026-04-10 23:15:03 [TestNG-PoolService-1] INFO com.ui.pages.LoginPage::clickOn::120 - Element is clickable and now performing click: By.id: SubmitLogin
+2026-04-10 23:15:04 [TestNG-PoolService-2] INFO com.ui.pages.MyAccountPage::getVisibleText::150 - Finding element with the locator By.xpath: //a[@title='View my customer account']/span
+2026-04-10 23:15:04 [TestNG-PoolService-1] INFO com.ui.pages.MyAccountPage::getVisibleText::150 - Finding element with the locator By.xpath: //a[@title='View my customer account']/span
+2026-04-10 23:15:04 [TestNG-PoolService-1] INFO com.ui.pages.MyAccountPage::getVisibleText::152 - Element found and now returning the visible text Jatin Sharma
+2026-04-10 23:15:04 [TestNG-PoolService-2] INFO com.ui.pages.MyAccountPage::getVisibleText::152 - Element found and now returning the visible text Jatin Sharma
+2026-04-10 23:15:04 [TestNG-PoolService-2] INFO com.ui.listeners.TestListener::onTestSuccess::35 - loginTest PASSED
+2026-04-10 23:15:04 [TestNG-PoolService-1] INFO com.ui.listeners.TestListener::onTestSuccess::35 - loginTest PASSED
+2026-04-10 23:15:04 [main] INFO com.ui.listeners.TestListener::onFinish::72 - Test Suite Completed
